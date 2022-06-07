@@ -1,0 +1,16 @@
+<!doctype html>
+<title>Epic Web App</title>
+
+<header>Yo, search for some weather data bro</header>
+<form>
+  <input type="text" id="search-input" placeholder="Insert Location Here">
+  <button type="button" id="submit-button" onclick="startSearch();"> Search </button>
+<form>
+
+
+<p>RESPONSE:</p>
+<pre id="results-div"></div>
+
+<footer>
+  <script src="{{ url_for('static',filename='main.js') }}"></script>
+</footer>
